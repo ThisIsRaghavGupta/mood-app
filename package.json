@@ -1,0 +1,29 @@
+{
+  "name": "bake-a-mood",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.12.0",
+    "@lottiefiles/dotlottie-vue": "^0.8.1",
+    "@lottiefiles/vue-lottie-player": "^1.1.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "@tsparticles/vue3": "^3.0.1",
+    "lodash": "^4.17.21",
+    "tsparticles": "^3.8.1",
+    "tsparticles-engine": "^2.12.0",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.4"
+  }
+}
